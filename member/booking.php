@@ -91,4 +91,24 @@ echo "
                             echo"<option>$i.00 Wib </option>";
                         }
                               echo"</select></td>";
-            
+                ?>
+              <?php
+               echo"
+                    </tr>
+
+                    <tr>
+                        <td><label>Pesan Anda</label></td>
+                        <td> :</td>
+                        <td><textarea name='pesan' rows='4' cols='20'>
+                            </textarea></td>
+                    </tr>
+                    
+                    </table>
+                    <br><br>
+                    <input type='submit' name ='simpan' value='Simpan' />
+
+                </form>
+
+       ";
+
+?>
